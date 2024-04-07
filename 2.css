@@ -1,0 +1,267 @@
+body {
+    background-color: gray;
+    margin: auto;
+}
+.container {
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.logo1 {
+   height: 100px;
+   width: 100px;
+}
+.logo {
+    float: left;
+    padding: 15px;
+}
+.search {
+    float: right;
+    padding: 15px;
+   
+}
+.s {
+    height: 30px;
+    border-radius: 20px;
+}
+.b {
+    height: 25px;
+    border-radius: 10px;
+}
+.fixfloat {
+    clear: both;
+}
+.home {
+    background-color: rgb(29, 86, 67);
+}
+.home >ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    
+}
+.home > ul > li {
+    display: inline-block;
+   
+}
+.home > ul > li > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.home >ul >li >a:hover{
+    background-color: rgb(38, 180, 133);
+}
+.ser {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.ser > li > a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-family: sans-serif;
+    padding: 15px;
+    background-color: black;
+}
+.ser >li >a:hover{
+    background-color: rgb(38, 180, 133);
+}
+.home >ul >li:hover .ser{
+    display: block;
+}
+.pic {
+    width: 1000px;
+    height: 570px;
+    overflow: hidden;
+}
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+.content-holder {
+    background-color: rgb(29, 86, 67);
+}
+.content {
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content h1{
+    font-size: large;
+    font-family: sans-serif;
+}
+.content p {
+    font-size: medium;
+    font-family: sans-serif;
+}
+.side-bar {
+    float: left;
+    padding: 25px;
+}
+.side-bar h3 {
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+}
+.side-bar ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.side-bar ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-family: sans-serif;
+    font-style: italic;
+    display: block;
+    margin-bottom: 5px;
+}
+.side-bar ul>li>a:hover{
+    text-decoration: underline;
+}
+.main-footer {
+    background-color: black;
+    color: white;
+    width: 950px;
+    padding: 25px;
+}
+.ff{
+    width: 237.5px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.ff>ul>li>a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    display: block;
+    margin-bottom: 5px;
+}
+.ff>ul>li>a:hover{
+    text-decoration: underline;
+}
+.ff>ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.ff p>a {
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(29, 86, 67);
+    display: block;
+    margin-bottom: 5px;
+}
+.ff p>a:hover{
+    text-decoration: underline;
+}
+.ff h3 {
+    text-transform: capitalize;
+    font-size: large;
+}
+.ff p{
+    margin: 0px;
+}
+.copy {
+    background-color:rgb(29, 86, 67) ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.copy p{
+    margin: 0px;
+}
+.product {
+    width: 208.33px;
+    height: auto;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    border: 2px solid rgb(29, 86, 67);
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.caption p {
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.caption p>del {
+    color: red;
+}
+.caption p>ins{
+    color: green;
+}
+.caption a{
+    background-color: rgb(29, 86, 67);
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    font-family: sans-serif;
+    padding: 10px;
+}
+.caption a:hover{
+    background-color:rgb(38, 180, 133) ;
+}
+.product hr {
+    border: 1px solid rgb(29, 86, 67);
+}
+.x {
+    width :340px;
+    float: left;
+    height: 192px;
+    margin: 5px;
+}
+.cont {
+    display: flex;
+    place-content: center;
+    place-items: center;
+   
+}
+.v {
+    width: 300px;
+    height: 161px;
+}
+.banner iframe {
+    width: 100%;
+    height: 416.66px;
+}
+.w {
+    position: relative;
+    left: 60px;
+    top: 214px;
+    margin: 2px;
+    background-color: rgb(29, 86, 67);
+    color: white;
+    padding: 3px;
+    border-radius: 5px;
+}
+tr td >input ,
+textarea{
+    border-radius: 5px;
+}
+form h3{
+    margin: 0px;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+}
